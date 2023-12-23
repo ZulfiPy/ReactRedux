@@ -2,9 +2,9 @@ import { createSlice } from "@reduxjs/toolkit";
 import { nanoid } from "nanoid"
 
 const initialState = [
-    { userId: 1, name: "Zulfugar", surname: "Abdullayev", address: "Pille 11/5" },
-    { userId: 2, name: "Gleb", surname: "Padar", address: "Priisle 8-55" },
-    { userId: 3, name: "Aleksandr", surname: "Maiorov", address: "Heki tee 6-87" },
+    { userId: 1, name: "Z", surname: "A", address: "P115" },
+    { userId: 2, name: "G", surname: "P", address: "P855" },
+    { userId: 3, name: "A", surname: "M", address: "H687" },
 ]
 
 export const usersSlice = createSlice({
